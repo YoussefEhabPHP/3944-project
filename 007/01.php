@@ -15,9 +15,9 @@ echo $order_price(1100, 100);
 
 $sales = function ( float $price ) use (&$total) : void {
     // $total = $total + $price;
-
     $total += $price;
 };
+
 
 $total = 500;
 

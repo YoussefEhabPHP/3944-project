@@ -14,9 +14,10 @@ var_dump($onsite[2]);
 var_dump(count($onsite));
 
 echo '--------------------------';
+echo"<hr>";
 
 for ($i = 0 ; $i < count($onsite) ; $i++) {
-    var_dump($onsite[$i]);
+    print_r($onsite[$i]);
 }
 
 echo '--------------------------';

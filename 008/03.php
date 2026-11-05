@@ -20,3 +20,4 @@ $sales = [
     2023 => 7500000,
 ];
 var_dump($sales);
+print_r(array_keys($sales));

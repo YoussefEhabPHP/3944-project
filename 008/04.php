@@ -1,9 +1,7 @@
 <?php
 declare(strict_types=1);
 
-
 // Array loop
-
 
 $cars = [
     0 => 'Ferrari',

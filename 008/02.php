@@ -10,3 +10,10 @@ $cars = [
 ];
 
 var_dump($cars);
+
+$names = ["Youssef", "Ahmed", "Mariam"];
+
+var_dump(in_array("Ahmed", $names));
+// true
+echo array_search("Mariam", $names);
+// 2

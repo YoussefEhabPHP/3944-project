@@ -23,6 +23,7 @@
     echo"<br>⟡ (isAdult) that takes an age and returns true if the age is 18 or greater, otherwise returns - false. <br>";
     $isAdult=fn(int $age) => $age >= 18;
     echo $isAdult(2) ? "true" : "false";//Operation based on the number
+    //echo (fn(int $age) => $age >= 18 ? "true" : "false")(20);
 
     /*echo"<br>⟡ (isEven) that takes a number and returns true if the number is even, otherwise returns - false. <br>";
     $isEven=fn(int $num) => $num % 2 === 0;
