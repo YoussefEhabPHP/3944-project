@@ -20,6 +20,6 @@ $vat = 0.14;
 
 $calc_vat = fn ($price) => $price * $vat;
 
-$price_1_vat = $calc_vat(1000);
+echo $price_1_vat = $calc_vat(1000);
 
 echo "Price 1000 VAT is $price_1_vat";
