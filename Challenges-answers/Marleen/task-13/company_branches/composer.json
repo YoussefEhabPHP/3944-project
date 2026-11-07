@@ -1,0 +1,15 @@
+{
+    "name": "moosho/task-13",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marleen Nabil",
+            "email": "eng.marleennabil@gmail.com"
+        }
+    ],
+    "require": {}
+}
